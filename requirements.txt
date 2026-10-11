@@ -1,0 +1,12 @@
+# Data analysis and visualization
+numpy
+pandas
+plotly
+
+# Notebook execution
+ipython
+ipykernel
+jupyter
+
+# Required by Plotly for PNG export via fig.write_image()
+kaleido
