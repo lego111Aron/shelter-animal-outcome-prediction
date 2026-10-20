@@ -1,0 +1,21 @@
+from pathlib import Path
+
+
+# Directory containing the original datasets.
+DATA_DIR = Path("data/Original")
+# Directory for generated reports and figures.
+OUTPUT_DIR = Path("output")
+# Path to the training dataset.
+TRAIN_PATH = DATA_DIR / "train.csv"
+# Path to the test dataset.
+TEST_PATH = DATA_DIR / "test.csv"
+# Name of the prediction target column.
+TARGET = "OutcomeType"
+# Seed for reproducible random operations.
+RANDOM_STATE = 42
+
+# Shared Plotly visual style and export settings.
+PLOTLY_TEMPLATE = "plotly_white"
+PLOTLY_CONFIG = {"displaylogo": False, "responsive": True}
+PLOTLY_WIDTH = 950
+PLOTLY_HEIGHT = 520
