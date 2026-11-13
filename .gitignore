@@ -1,5 +1,5 @@
 *.csv
-[Dd]ata/
+![Dd]ata/Original/*.csv
 [Oo]utput/
 
 __pycache__/
