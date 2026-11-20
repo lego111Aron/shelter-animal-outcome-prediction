@@ -1,5 +1,7 @@
-data
-output
-__pycache__
-.venv
-venv
+*.csv
+[Dd]ata/
+[Oo]utput/
+
+__pycache__/
+.venv/
+venv/
